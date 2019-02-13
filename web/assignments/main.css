@@ -18,6 +18,10 @@ p {
     color: #cdcdcd;
 }
 
+li {
+    color: #3E4649;
+}
+
 .jumbotron {
     background: #1BA0C7;
     color: white;
