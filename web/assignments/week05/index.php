@@ -18,7 +18,7 @@ $add_content = "";
 
         <ul class="list-group">
         <?php foreach($query as $row) { ?>
-            <li class="list-group-item"><a class="nav-item nav-link" href="budget.php?budget_id=<?php echo $row['list_id']; ?>"><?php echo $row['content']; ?></a></li>
+            <li class="list-group-item"><?php echo $row['content']; ?></li>
         <?php } ?>
         </ul>
     </main>

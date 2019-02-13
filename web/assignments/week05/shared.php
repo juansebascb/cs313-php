@@ -35,7 +35,7 @@
   $current_page = htmlspecialchars($_SERVER['REQUEST_URI']);
   $dbUrl = getenv('DATABASE_URL');
   if (empty($dbUrl)) {
-    $dbUrl = "postgres://ifuxatqeanilxo:d1aaad403d63b6cf1705677f3262a61532ff51881d4e2998abac7f7c0d518cda@ec2-107-20-167-11.compute-1.amazonaws.com:5432/d7so52m6abhl5b";
+    $dbUrl = "";
   }
   $dbopts = parse_url($dbUrl);
   $dbHost = $dbopts["host"];
