@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\web"
+    "\\web",
+    "\\web\\assignments",
+    "\\web\\assignments\\week03"
   ],
-  "SelectedNode": "\\web\\hello.html",
+  "SelectedNode": "\\web\\assignments\\week03\\site.js",
   "PreviewInSolutionExplorer": false
 }
