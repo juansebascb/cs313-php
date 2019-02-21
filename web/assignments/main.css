@@ -19,7 +19,7 @@ p {
 }
 
 li {
-    color: #3E4649;
+    color: #3E4649 !important;
 }
 
 .jumbotron {
