@@ -1,0 +1,93 @@
+body {
+    background: #3E4649;
+    color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cart-item img {
+    height: 15vh !important
+}
+.cart-qty {
+    width: 3em
+}
+p {
+    font-size: 16px;
+    color: #cdcdcd;
+}
+.navbar-inverse {
+    background: #2E2F31;
+    border: 0;
+}
+.navbar-inverse .navbar-nav li a {
+    color: #f7f7f7;
+    font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+    background: #1BA0C7;
+}
+.dropdown-menu {
+    background: #2E2F31;
+    border-radius: 0;
+    border: 0;
+}
+.dropdown-menu li a {
+    padding: 10px;
+}
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+    background: #2C463C;
+}
+li {
+    color: #3E4649 !important;
+}
+.card {
+    background: #1BA0C7;
+}
+.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: white;
+    margin-bottom: 5px;
+}
+.btn-primary:hover {
+    color: #1BA0C7;
+    background-color: white;
+    border-color: white;
+}
+.disabled, .delete {
+    color: rgb(255, 0, 106) !important;
+    background-color: transparent !important;
+    border-color: rgb(255, 0, 106) !important;
+    margin-bottom: 5px;
+}
+.navbar-brand {
+    color: #9d9d9d;
+}
+.navbar-brand:hover {
+    color: white;
+}
+thead {
+    background-color: #1BA0C7 !important;
+    color: white !important;
+    border: #1BA0C7 !important;
+    outline-color: #1BA0C7 !important;
+}
+tbody {
+    color: white !important;
+}
+.delete:hover {
+    background-color: white !important;
+    border-color: white !important;
+}
+.update:hover {
+    color: white;
+    background-color: hsl(106, 100%, 30%);
+    border-color: hsl(106, 100%, 30%);
+}
+.alert-primary {
+    background-color: transparent;
+    color: rgb(255, 0, 106);
+}
+.alert-warning {
+    background-color: #1BA0C7;
+    color: white;
+}
